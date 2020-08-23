@@ -15,6 +15,12 @@ npm i mangaindo-scraper
 ```javascript
 const { Manga } = require("mangaindo-scraper");
 
+/**
+ * Get ALl Manga that return 20 manga as default
+ * use @params page to get other page manga list
+ * use @params limit set manga length (default 20)
+ * @type number
+ */
 Manga.getManga(1,1)
   .then((manga) => console.log(manga))
   .catch((err) => console.log(err));
@@ -38,4 +44,4 @@ Manga.getManga(1,1)
 }
 ```
 
-for more example, you can check [here]("https://github.com/febryardiansyah/mangaindo-scraper/blob/master/sample.js")
+for more example, you can check [here]("https://github.com/febryardiansyah/mangaindo-scraper/blob/master/sample")
