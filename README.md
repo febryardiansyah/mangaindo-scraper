@@ -38,4 +38,4 @@ Manga.getManga(1,1)
 }
 ```
 
-for more example, you can check [here]('https://github.com/febryardiansyah/mangaindo-scraper/sample.js')
+for more example, you can check [here]("https://github.com/febryardiansyah/mangaindo-scraper/blob/master/sample.js")
